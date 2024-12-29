@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 300px;
+        height: auto;
+        /* border:1px solid black; */
+        padding: 14px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 4px;
+    }
+    input{
+        padding: 10px;
+        border-radius: 8px;
+        margin: 10px 0px;
+        width: 100%;
+        border: 1px solid grey;
+    }
+    input:focus{
+        outline: 1px solid #0866ff;
+
+    }
+    button{
+        width: 100%;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        vertical-align: middle;
+    }
+      .login {
+        background-color: #0866ff;
+        vertical-align: middle;
+      }
+
+      .new-account{
+        background-color: #42b72a;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      a{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="email" name="" placeholder="Email or Phone number">
+            <input type="password" name="" placeholder="password">
+            <button class="login">Login</button>
+            <a href="#">Forgot Password</a>
+            <hr>
+            <button class="new-account">create a new account</button>
+        </form>
+    </div>
+</body>
+</html>

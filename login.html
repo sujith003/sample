@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+         }
+         body{
+            background-image: url(https://th.bing.com/th/id/R.a9c13f48b16a80453abac60aebd382a7?rik=OvMR3ZIhueu6fQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f1%2f2%2f299626.jpg&ehk=X%2bi1eJy%2fdQMQ%2fs%2funp20UbLj7jdPJGRGs0Byi%2bi3SJI%3d&risl=&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+         }
+         .container{
+            background-color: white;
+            height: 95vh;
+            width: 95vw;
+            margin: auto;
+         }
+         .left{
+            width: 35%;
+            background-color: #141229;
+            height: 100%;
+            float: left;
+            /* margin-top: 40px; */
+            padding: 35px;
+            padding-top: 40px;
+         }
+         .right{
+            width: 65%;
+            background-color: snow;
+            height: 100%;
+            float: right;
+            padding: 20px;
+            /* margin-top: 40px; */
+         }
+         .right h2,p{
+            text-align: center;
+
+         }
+         input[type="email"],[type="password"]{
+            display: block;
+            padding: 5px;
+            border: 1px solid grey;
+            width: 100%;
+            margin: 20px 0px;
+            font-size: larger;
+
+         }
+         button{
+            background-color: slateblue;
+            color: white;
+            width: 100%;
+            padding: 15px;
+            /* font-size: large; */
+            font-weight: bolder;
+            border: none;
+            border-radius: 5px;
+            margin: 20px 0px;
+
+         }
+         .left p{
+            color: white;
+         }
+         form{
+            width: 70%;
+            margin: auto;
+         }
+         .btn{
+            width: 70%;
+         }
+         .facebook{
+            background-color: #395999;
+         }
+         .twitter{
+            background-color: #00acee;
+         }
+         .google{
+            background-color: #c42f11;
+         }
+         .center{
+            margin-left: 40px;
+         }
+         .fp{
+            float: right;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <p>Login using social media to get quick access</p>
+            <div class="center">
+                <button class="btn facebook">signup with facebook</button>
+                <button class="btn twitter">signin with twitter</button>
+                <button class="btn google">sign in with google</button>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <h2>Login to your account</h2>
+            <p>don't have an account <a href="#">signup for free</a></p>
+            <form>
+                <input type="email" placeholder="Enter email">
+                <input type="password" placeholder="Enter password">
+                <input type="checkbox">
+                <label for="checkbox">Remember me</label>
+                <a href="#">Forgot password</a>
+                <button>Login with Email</button> 
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
